@@ -1,0 +1,43 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    color: yellow;
+    background-color: blueviolet;
+
+}
+
+#show_sketch {
+    float: right;
+}
+
+#score{
+    float: left;
+}
+
+#timer{
+    float: right;
+}
+
+p{
+    padding-top: 10;
+    color: green;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: glowing;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glowing{
+from{box-shadow: 1px 1px 35px grey;}
+
+    to{box-shadow: 1px 1px 35px white;}
+}
